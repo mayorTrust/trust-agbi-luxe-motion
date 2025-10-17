@@ -69,7 +69,7 @@ const Hero = () => {
               }}
               transition={{ duration: 3, repeat: Infinity }}
             >
-              Creative Designer
+              Web Developer
             </motion.span>
           </motion.h1>
 
@@ -80,7 +80,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light italic"
           >
-            Designing Digital Experiences that Define Luxury
+            Building Immersive Web Experiences with a Creative Touch
           </motion.p>
 
           {/* CTA Buttons */}

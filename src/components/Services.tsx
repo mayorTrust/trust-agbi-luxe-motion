@@ -14,19 +14,19 @@ const services = [
     icon: Code,
     title: 'Web Development',
     description: 'Building responsive, performant websites with modern technologies. Clean code, smooth animations, and pixel-perfect implementation.',
-    features: ['React & Next.js', 'Responsive Design', 'Performance Optimization', 'SEO Best Practices'],
+    features: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
     icon: Sparkles,
-    title: 'Brand Identity',
-    description: 'Developing cohesive brand systems that tell your story. From logos to complete visual identities that make lasting impressions.',
-    features: ['Logo Design', 'Brand Strategy', 'Style Guides', 'Brand Assets'],
+    title: 'Vibe Coding',
+    description: 'Bringing a creative and artistic touch to your website. I focus on creating a unique feel and aesthetic that aligns with your brand.',
+    features: ['Creative Animations', 'Micro-interactions', 'Unique Layouts', 'Art Direction'],
   },
   {
-    icon: Palette,
-    title: 'Graphic Design',
-    description: 'Creating stunning visual content that captures attention. Marketing materials, social media graphics, and everything in between.',
-    features: ['Marketing Materials', 'Social Media', 'Print Design', 'Illustrations'],
+    icon: Code,
+    title: 'React Development',
+    description: 'Specializing in React, I build complex and scalable web applications with a focus on performance and user experience.',
+    features: ['React', 'Next.js', 'State Management', 'API Integration'],
   },
 ];
 
@@ -51,7 +51,7 @@ const Services = () => {
             <span className="italic text-gold">Your Brand</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive design solutions tailored to your unique needs
+            Comprehensive web development solutions tailored to your unique needs
           </p>
         </motion.div>
 

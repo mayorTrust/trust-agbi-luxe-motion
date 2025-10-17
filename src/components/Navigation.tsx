@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { ModeToggle } from './theme-toggle';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +39,7 @@ const Navigation = () => {
           className="text-2xl font-heading font-bold"
           whileHover={{ scale: 1.05 }}
         >
-          <span className="bg-gradient-gold bg-clip-text text-transparent">TA</span>
+          <img src="/logot.jpg" alt="logo" className="w-10 h-10 rounded-full" />
         </motion.a>
 
         {/* Desktop Menu */}
@@ -55,6 +56,7 @@ const Navigation = () => {
           <Button variant="default" className="bg-gradient-gold border-0 hover:shadow-glow">
             Let's Talk
           </Button>
+          <ModeToggle />
         </div>
 
         {/* Mobile Menu Button */}
@@ -73,6 +75,9 @@ const Navigation = () => {
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden glass-light mt-4 mx-6 rounded-lg p-6"
         >
+          <div className="flex justify-end mb-4">
+            <ModeToggle />
+          </div>
           {navItems.map((item) => (
             <a
               key={item.name}

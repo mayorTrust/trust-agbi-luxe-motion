@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import profilePlaceholder from '@/assets/profile-placeholder.jpg';
+const trustImg = '/trust-pics.jpg';
 
 const About = () => {
   const ref = useRef(null);
@@ -33,14 +33,14 @@ const About = () => {
               <div className="relative glass-light rounded-2xl p-8 shadow-luxury gold-glow-hover">
                 <div className="aspect-square overflow-hidden rounded-xl mb-6">
                   <img 
-                    src={profilePlaceholder} 
+                    src={trustImg} 
                     alt="Trust Agbi" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="text-center">
                   <h3 className="text-2xl font-heading font-bold mb-2">Trust Agbi</h3>
-                  <p className="text-gold font-medium">Multidisciplinary Designer</p>
+                  <p className="text-gold font-medium">Web Developer</p>
                 </div>
                 
                 {/* Floating Accent */}
@@ -74,8 +74,8 @@ const About = () => {
               transition={{ delay: 0.4 }}
               className="text-4xl md:text-5xl font-heading font-bold mb-6"
             >
-              Merging Minimal Elegance with{' '}
-              <span className="italic text-gold">Cutting-Edge Interactivity</span>
+              Building Digital Experiences with a{' '}
+              <span className="italic text-gold">Creative Perspective</span>
             </motion.h2>
 
             <motion.div
@@ -85,14 +85,14 @@ const About = () => {
               className="space-y-4 text-muted-foreground text-lg leading-relaxed"
             >
               <p>
-                I'm <span className="text-foreground font-medium">Trust Agbi</span> — a multidisciplinary designer passionate about merging minimal elegance with cutting-edge interactivity.
+                I'm <span className="text-foreground font-medium">Trust Agbi</span> — a web developer passionate about building beautiful and interactive websites.
               </p>
               <p>
                 I help brands and creators turn ideas into{' '}
-                <span className="text-gold font-medium">timeless digital experiences</span> that don't just look beautiful, but drive real results.
+                <span className="text-gold font-medium">engaging web experiences</span> that not only look good but also perform flawlessly.
               </p>
               <p>
-                With expertise spanning UI/UX design, web development, brand identity, and graphic design, I craft sophisticated solutions for startups, influencers, and e-commerce brands seeking to stand out in the digital landscape.
+                With expertise in HTML, CSS, JavaScript, React, and UI/UX design, I craft sophisticated solutions for startups and businesses seeking to stand out in the digital landscape.
               </p>
             </motion.div>
 

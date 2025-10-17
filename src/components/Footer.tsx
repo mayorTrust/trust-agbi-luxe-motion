@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/mayorTrust', label: 'GitHub' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Mail, href: '#contact', label: 'Email' },
@@ -34,7 +34,7 @@ const Footer = () => {
               </span>
             </motion.div>
             <p className="text-muted-foreground mb-4">
-              Designing Digital Experiences that Define Luxury
+              Building Immersive Web Experiences
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (
@@ -85,9 +85,7 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm">
             © {currentYear} Trust Agbi. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-sm flex items-center gap-2">
-            Crafted with <Heart className="w-4 h-4 fill-gold text-gold animate-pulse" /> and attention to detail
-          </p>
+
         </div>
       </div>
 
