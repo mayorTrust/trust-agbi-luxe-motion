@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-const trustImg = '/trust-pics.jpg';
+import trustImg from '@/assets/trust-pics.jpg';
 
 const About = () => {
   const ref = useRef(null);

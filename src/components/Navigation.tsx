@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ModeToggle } from './theme-toggle';
+import logot from '@/assets/logot.jpg';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,7 +40,7 @@ const Navigation = () => {
           className="text-2xl font-heading font-bold"
           whileHover={{ scale: 1.05 }}
         >
-          <img src="/logot.jpg" alt="logo" className="w-10 h-10 rounded-full" />
+          <img src={logot} alt="logo" className="w-10 h-10 rounded-full" />
         </motion.a>
 
         {/* Desktop Menu */}
