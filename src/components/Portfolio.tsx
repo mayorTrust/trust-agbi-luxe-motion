@@ -6,6 +6,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import project1 from '@/assets/project-1.jpg';
 import project2 from '@/assets/project-2.jpg';
 import project3 from '@/assets/project-3.jpg';
+import trustImg from '@/assets/trust-img.png';
 
 const projects = [
   {
@@ -34,6 +35,15 @@ const projects = [
     image: project3,
     tags: ['React', 'JavaScript', 'UI/UX', 'Data Viz'],
     caseStudy: 'Designed and developed a highly interactive web application that helped the company visualize complex data and gain new insights.',
+  },
+  {
+    id: 4,
+    title: 'Owner Portfolio',
+    category: 'Web Development',
+    description: 'A stunning portfolio website for the owner of Luxe Motion. The website is built with React and features a modern design and smooth animations.',
+    image: trustImg,
+    tags: ['React', 'JavaScript', 'CSS', 'Framer Motion'],
+    caseStudy: 'Developed a personal portfolio website that showcases the owner\'s skills and experience in a visually appealing way.',
   },
 ];
 
